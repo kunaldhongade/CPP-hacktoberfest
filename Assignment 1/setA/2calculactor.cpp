@@ -5,27 +5,27 @@ using namespace std;
  
 int main()
 {
-    int num1,num2;
+    int n1,n2;
     char ope; 
     cout<<"Enter first number : ";
-    cin>>num1;
+    cin>>n1;
     cout<<"\nEnter second number : ";
-    cin>>num2;
+    cin>>n2;
     cout<<"\nEnter operator ( + - * /) : ";
     cin>>ope;
     switch(ope)
     {
         case '+':
-            cout<<num1<<" + "<<num2<<" = "<<num1+num2<<endl;
+            cout<<n1<<" + "<<n2<<" = "<<n1+n2<<endl;
             break;
         case '-':
-            cout<<num1<<" - "<<num2<<" = "<<num1-num2<<endl;
+            cout<<n1<<" - "<<n2<<" = "<<n1-n2<<endl;
             break;
         case '*':
-            cout<<num1<<" * "<<num2<<" = "<<num1*num2<<endl;
+            cout<<n1<<" * "<<n2<<" = "<<n1*n1<<endl;
             break;
         case '/':
-            cout<<num1<<" / "<<num2<<" = "<<num1/num2<<endl;
+            cout<<n1<<" / "<<n2<<" = "<<n1/n2<<endl;
             break;
         default : 
             cout<<"Invalid Input"<<endl;
