@@ -44,14 +44,14 @@ float Cylinder :: area()
 int main()
 {
     Cylinder cyl;
-    float radi,hei,volume,area;
+    float r,h,v,a;
     cout<<"Enter radius and Height"<<endl;
-    cin>>radi>>hei;
-    cyl.setradius(radi);
-    cyl.setheight(hei);
-    volume = cyl.volume();
-    area   = cyl.area();
-    cout<<"Volume : "<<volume<<endl;
-    cout<<"Area   : "<<area<<endl;
+    cin>>r>>h;
+    cyl.setradius(r);
+    cyl.setheight(h);
+    v = cyl.volume();
+    a   = cyl.area();
+    cout<<"Volume : "<<v<<endl;
+    cout<<"Area   : "<<a<<endl;
     return 0;
 }
