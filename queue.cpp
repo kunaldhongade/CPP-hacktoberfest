@@ -1,3 +1,5 @@
+// Link to problem - https://binarysearch.com/problems/3-6-9
+
 #include <iostream>
 using namespace std;
 
