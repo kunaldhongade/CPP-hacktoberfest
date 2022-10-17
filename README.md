@@ -31,7 +31,7 @@
 
  ## HAPPY HACKING!!🥳
 
- <a href="https://github.com/kunaldhongade/cpp/graphs/contributors">
+ <a href="https://github.com/kunaldhongade/CPP/graphs/contributors">
 
   <img src="https://contrib.rocks/image?repo=kunaldhongade/cpp" />
 
