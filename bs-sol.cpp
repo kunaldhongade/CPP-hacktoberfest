@@ -1,5 +1,4 @@
 // Link to problem - https://binarysearch.com/problems/3-6-9
-// status - accepted ✅
 
 vector<string> solve(int n) {
     vector<string> res;
