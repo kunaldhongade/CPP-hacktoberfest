@@ -33,6 +33,6 @@
 
  <a href="https://github.com/kunaldhongade/CPP/graphs/contributors">
 
-  <img src="https://contrib.rocks/image?repo=kunaldhongade/cpp" />
+ <img src="https://contrib.rocks/image?repo=kunaldhongade/cpp" />
 
 </a>
