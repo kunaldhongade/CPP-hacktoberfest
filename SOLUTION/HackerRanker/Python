@@ -1,0 +1,113 @@
+# 1.Say "Hello, World!" With Python
+_Ans_:print("Hello, World!")
+
+# 2.Python if-else
+_Ans_: 
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if n%2 == 0:
+        if n <= 5:
+            print ("Not Weird")
+        elif n <= 20:
+            print ("Weird")    
+        else :
+            print ("Not Weird")
+    else :
+        print ("Weird")
+    
+# 3.Arithmetic Operators
+_Ans_: 
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    c = a+b
+    print(c)
+    d = a-b
+    print (d)
+    e = a*b
+    print (e)
+    
+# 4.Python : Division
+_Ans_:
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    c= a/b
+    print (int(c))
+    d= a/b
+    print (float(d))
+
+# 5. Loops
+_Ans_:
+if __name__ == '__main__':
+    n = int(input())
+    for num in range (0,n):
+        square = num*num
+        print(square)
+
+# 6.Print Functiom
+_Ans_:
+if __name__ == '__main__':
+    n = int(input())
+    for value in range(1,n+1):
+        print (value,end="")
+
+# 7.Lists
+_Ans_:
+if __name__ == '__main__':
+    N = int(input())
+    Output = [];
+    for i in range(0,N):
+        ip = input().split();
+        if ip[0] == "print":
+            print(Output)
+        elif ip[0] == "insert":
+            Output.insert(int(ip[1]),int(ip[2]))
+        elif ip[0] == "remove":
+            Output.remove(int(ip[1]))
+        elif ip[0] == "pop":
+            Output.pop();
+        elif ip[0] == "append":
+            Output.append(int(ip[1]))
+        elif ip[0] == "sort":
+            Output.sort();
+        else:
+            Output.reverse();
+
+# 8.What's your name?
+_Ans_:
+def print_full_name(first, last):
+    print (f"Hello {first} {last}! You just delved into python.")
+    
+
+# 9.Detect Floating point number
+_Ans_:
+import re
+for i in range(int(input())):
+    n = input()
+    if bool (re.match(r"^[+-.]?[0-9]*\.[0-9]+$",n)):
+        print("True")
+    else :
+        print("False")
+        
+# 10.Validating phone numbers
+_Ans_:
+import re
+
+for i in range(int(input())):
+    n = input()
+    if bool(re.match(r"[789]\d{9}$", n)):
+        print ("YES")
+    else :
+        print("NO")
+
