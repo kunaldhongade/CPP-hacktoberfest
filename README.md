@@ -1,8 +1,9 @@
+<H1><center><B>Programming Questions</B> </center> </H1>
 <H1><center><B>HACTOBERFEST 2022</B> </center> </H1>
 
   
 
-  <img src ='https://github.com/Srishti44-g/HACTOBERFEST-2022/blob/main/Hactoberfest2022.png'>
+  <img src ='https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1200x463.jpg'>
 
  <H2>REGISTRATION</h2>
 
@@ -24,9 +25,6 @@
 
   <h3>Have 4 pull/merge requests accepted between October 1 and October 31 to complete Hacktoberfest</h3>
 
-  
-  
-
  # Contributors 😄
 
  ## HAPPY HACKING!!🥳
@@ -36,3 +34,4 @@
  <img src="https://contrib.rocks/image?repo=kunaldhongade/cpp" />
 
 </a>
+
