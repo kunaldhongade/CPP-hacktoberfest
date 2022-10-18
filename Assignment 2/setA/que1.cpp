@@ -23,13 +23,13 @@ class Cylinder{
     float volume();
     float area();
 };
-void Cylinder :: setradius(float radi)
+void Cylinder :: setradius(float r)
 {
-    rad = radi;
+    rad = r;
 }
-void Cylinder :: setheight(float hei)
+void Cylinder :: setheight(float h)
 {
-    height = hei;
+    height = h;
 }
 float Cylinder :: volume()
 {

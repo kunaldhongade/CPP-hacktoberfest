@@ -4,8 +4,8 @@ Write a C++ program to create two classes Rectangle1 and Rectangle 2. Compare ar
 #include<iostream>
 #include<conio.h>
 using namespace std;
-class Rectangle2;
-class Rectangle1
+class R2;
+class R1
 {
     private:
     float length,breadth;
@@ -13,14 +13,14 @@ class Rectangle1
     void get(void);
     friend void area(Rectangle1,Rectangle2);
 };
-void Rectangle1 :: get(void)
+void R1 :: get(void)
 {
     cout<<"Enter Rectangle 1 length : ";
     cin>>length;
     cout<<"Enter Rectangle 1 breadth : ";
     cin>>breadth;
 }
-class Rectangle2
+class R2
 {
     private:
     float length,breadth;
@@ -28,14 +28,14 @@ class Rectangle2
     void get(void);
     friend void area(Rectangle1,Rectangle2);
 };
-void Rectangle2 :: get(void)
+void R2 :: get(void)
 {
     cout<<"Enter Rectangle 2 length : ";
     cin>>length;
     cout<<"Enter Rectangle 2 breadth : ";
     cin>>breadth;
 }
-void area(Rectangle1 one, Rectangle2 two)
+void area(R1 one, R2 two)
 {
     float area1 = one.length*one.breadth;
     float area2 = two.length*two.breadth;
@@ -43,8 +43,8 @@ void area(Rectangle1 one, Rectangle2 two)
 }
 int main()
 {
-    Rectangle1 rect1;
-    Rectangle2 rect2;
+    R1 rect1;
+    R2 rect2;
     rect1.get();
     rect2.get();
     area(rect1,rect2);
