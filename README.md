@@ -1,5 +1,5 @@
 <H1><center><B>Programming Questions</B> </center> </H1>
-<H1><center><B>HACTOBERFEST 2022</B> </center> </H1>
+<H1><center><strong>HACTOBERFEST 2022</strong> </center> </H1>
 
   
 
